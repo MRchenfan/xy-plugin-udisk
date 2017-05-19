@@ -6,6 +6,9 @@ cordova.plugins.udisk
 cordova.plugins.udisk.prototype = eventEmitter
 
 ### methods
+cordova.plugins.udisk.init()
+> init must after excute deviceready
+
 cordova.plugins.udisk.on()
 cordova.plugins.udisk.emit()
 

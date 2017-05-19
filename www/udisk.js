@@ -44,4 +44,8 @@ var Udisk = function() {}
 Udisk.prototype = new EventEmitter();
 Udisk.prototype.constructor = Udisk;
 
+Udisk.prototype.init = function(success, fail) {
+      exec(success, fail, 'Udisk', 'init', []);
+};
+
 module.exports = new Udisk();
