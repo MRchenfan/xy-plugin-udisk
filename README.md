@@ -21,7 +21,7 @@ cordova.plugins.udisk.on('removed', (url) => {});
 Udisk.java
 
 ## LICENSE
-MIT
+Apache 2.0
 
 
 
