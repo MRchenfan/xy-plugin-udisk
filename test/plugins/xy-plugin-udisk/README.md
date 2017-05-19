@@ -6,6 +6,9 @@ cordova.plugins.udisk
 cordova.plugins.udisk.prototype = eventEmitter
 
 ### methods
+cordova.plugins.udisk.init()
+> init must after excute deviceready
+
 cordova.plugins.udisk.on()
 cordova.plugins.udisk.emit()
 
@@ -18,7 +21,7 @@ cordova.plugins.udisk.on('removed', (url) => {});
 Udisk.java
 
 ## LICENSE
-MIT
+Apache 2.0
 
 
 

@@ -7,13 +7,16 @@
         "files": {}
     },
     "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "io.cordova.hellocordova"
+        },
         "cordova-plugin-file": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
         },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
         },
-        "cordova-plugin-battery-status": {
+        "xy-plugin-udisk": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
         }
     },
@@ -22,9 +25,6 @@
             "PACKAGE_NAME": "io.cordova.hellocordova"
         },
         "xy-plugin-echo": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
-        },
-        "xy-plugin-udisk": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
         }
     }

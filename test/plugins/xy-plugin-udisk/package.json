@@ -1,0 +1,34 @@
+{
+  "name": "xy-plugin-udisk",
+  "version": "1.0.1",
+  "description": "Xy udisk plugin",
+  "cordova": {
+    "id": "xy-plugin-udisk",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MRchenfan/xy-plugin-udisk.git"
+  },
+  "keywords": [
+    "cordova",
+    "udisk",
+    "test",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova-android",
+      "version": ">=4.0.0"
+    }
+  ],
+  "author": "Damon.cf",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/MRchenfan/xy-plugin-udisk/issues"
+  },
+  "homepage": "https://github.com/MRchenfan/xy-plugin-udisk#readme"
+}

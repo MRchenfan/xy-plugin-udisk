@@ -47,5 +47,27 @@
 
   <script src="js/cordova-file-operate.js"></script>
   <script src="js/index.js"></script>
+
+  <script>
+    document.addEventListener('deviceready', function() {
+
+      cordova.plugins.udisk.on('mounted', function(url) {
+
+        console.log('mounted', url);
+      });
+
+      cordova.plugins.udisk.on('unmounted', function(url) {
+
+        console.log('unmounted', url);
+      });
+
+      cordova.plugins.udisk.on('removed', function(url) {
+
+        console.log('removed', url);
+      });
+
+      cordova.plugins.udisk.init();
+    });
+  </script>
 </body>
 </html>
