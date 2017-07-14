@@ -60,6 +60,12 @@ public class Udisk extends CordovaPlugin {
         return false;
     }
 
+    @Override
+    public void onPause(boolean multitasking) {
+        webView.getContext().unregisterReceiver(this.receiver);
+        super.onPause(multitasking);
+    }
+
     private void receiveHandler(Intent intent) {
         String action = intent.getAction();
         String path = intent.getData().getPath();
